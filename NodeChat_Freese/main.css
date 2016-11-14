@@ -1,0 +1,17 @@
+#content {
+    margin: auto;
+    width: 75%
+}
+
+#log {
+    border: solid black 1px;
+    margin: auto;
+}
+
+#controls {
+    display: none;
+}
+
+#color {
+    background-color: turquoise;
+}

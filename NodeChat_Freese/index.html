@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Maurice's Chat Room</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body id="color">
+
+    <div id="content">
+        <h1>The Chatroom</h1>
+        <div id="user">
+            <span>My name is: </span>
+            <input id="user-name">
+            <button id="user-save">Save</button>
+        </div>
+        <br>
+
+        <div id="log">
+            <div class="message">Message Log:</div>
+        </div>
+
+        <br>
+        <div id="controls">
+            <input id="message" disabled>
+            <br>
+            <button id="send" disabled>Send</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
